@@ -259,3 +259,46 @@ h3
 {
     margin-left: 20px;
 }
+@media only screen and (max-width: 768px) 
+{
+    h1
+    {
+        font-family: 'Bad Script', cursive;
+        font-size: 3rem;
+        margin: 0;
+        text-align: center;
+    }
+    h3
+    {
+        font-family: 'Bad Script', cursive;
+        font-size: 1.5rem;
+        margin: 0;
+        text-align: center;
+    }
+    #discordChat
+    {
+        margin-top: 50px;
+    }
+    #autumn img
+    {
+        width: 300px;
+    }
+    iframe
+    {
+        width: auto;
+    }
+    #life
+    {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    #art #focus
+    {
+        background-position: left;
+    }
+    .textAnim::before,.textAnim2::before
+    {
+        height: 5rem;
+    }
+}
